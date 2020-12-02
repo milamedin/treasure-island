@@ -29,7 +29,7 @@ if step1.lower() != 'r':
 else:
   step2 = input("Do you want to wait od to go? Type W or G: ")
   if step2.lower() != 'w':
-    print("Game over! ")
+    print("Game over!")
   else:
     step3 = input("Wich door do you want to go in? Red, Blue or Yellow? Type R, B or Y: ")
     if step3.lower() == 'y':
